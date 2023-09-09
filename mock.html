@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .container {
+            /* background-color: red; */
+            width: 800px;
+            height: 500px;
+            margin: auto;
+            border: 1px dotted black;
+            display: flex;
+        }
+
+        .child1 {
+            width: 337px;
+            height: 469px;
+            border: 1px dotted black;
+            margin-left: 5px;
+            margin-top: 13px;
+        }
+
+        .inner1 {
+            border: 1px dotted black;
+            width: 189px;
+            height: 443px;
+            margin-left: 43px;
+            margin-top: -7px;
+        }
+
+        .p1 {
+            display: flex;
+        }
+
+        .ram {
+            width: 45px;
+            border: 1px dotted black;
+            height: 393px;
+            margin-left: 13px;
+            margin-top: 3px;
+
+        }
+
+        .dat {
+            height: 25px;
+            width: 22px;
+            margin-top: 34px;
+            margin-left: 10px;
+            gap: 10px;
+            text-align: center;
+            border: 1px solid black
+        }
+
+        .ind {
+            height: 22px;
+            width: 312px;
+            border: 1px dotted black;
+            margin-left: 10px;
+        }
+
+        p {
+            text-align: center;
+            margin: 0px;
+        }
+
+        .tiranga {
+            height: 360px;
+            width: 311px;
+            border: 1px dotted black;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        .ind2 {
+            height: 23px;
+            width: 311px;
+            border: 1px dotted black;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+
+        .ind3 {
+            height: 23px;
+            width: 286px;
+            border: 1px solid black;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+
+        .ind4 {
+            height: 255px;
+            width: 286px;
+            border: 1px solid black;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+
+        .ind5 {
+            height: 23px;
+            width: 286px;
+            border: 1px solid black;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+
+        .dow {
+            margin: 22px;
+        }
+
+        .yell {
+            height: 34px;
+            width: 264px;
+            border: 1px dotted black;
+            margin-left: 10px;
+            background-color: orange;
+            margin-top: 20px;
+        }
+
+        .blu {
+            height: 34px;
+            width: 264px;
+            border: 1px dotted blue;
+            margin-left: 10px;
+            margin-top: 50px;
+        }
+
+        .gri {
+            height: 34px;
+            width: 264px;
+            border: 1px dotted blue;
+            margin-left: 10px;
+            background-color: green;
+            margin-top: 42px;
+        }
+        .y{
+            margin-top: -26px;
+        }
+        .b{
+            margin-top: -26px;
+        }
+        .g{
+            margin-top: -26px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        Grandfather
+        <div class="child1">
+            Father
+            <div class="inner1">
+                Person1
+                <div class="p1">
+                    <div class="ram">
+                        child1
+                    </div>
+                    <div class="ram">
+                        child2
+                    </div>
+                    <div class="ram">
+                        child3
+                        <div class="dat">1</div>
+                        <div class="dat">2</div>
+                        <div class="dat">3</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="child1">
+            Uncle
+            <div class="ind">
+                <p>Person1</p>
+            </div>
+            <div class="tiranga">
+                <p>Person2</p>
+                <div class="ind3">
+                    <p>child1</p>
+                </div>
+                <div class="ind4">
+                    <p>child2</p>
+                    <div class="yell"></div>
+                    <p class="y">1</p>
+                    <div class="blu"></div>
+                    <p class="b">2</p>
+                    <div class="gri"></div>
+                    <p class="g">3</p>
+
+                </div>
+                <div class="ind5"></div>
+                <p class="dow">child3</p>
+            </div>
+            <div class="ind2"></div>
+            <p>Person3</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
